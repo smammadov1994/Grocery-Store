@@ -1,0 +1,182 @@
+.Frontapp {
+  height: 100vh;
+  display: flex;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.App__Aside {
+  background-color: rgb(233, 48, 41);
+  background-image: url("./images/apples.svg");
+  background-size: 300px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  
+}
+.App__Form {
+  background-color: white;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcher__Item {
+  background-color:#E03D38 ;
+  color: white;
+  font-weight: 600;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: orange;
+  color: white;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitcher__Item:first-child:hover {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: orange;
+  color: white;
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.PageSwitcher__Item:last-child:hover {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: orange;
+  color: white;
+}
+
+.dna-image {
+  height: 200px;
+  position: relative;
+  right: -200px;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.FormTitle {
+  color: #707c8b;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.FormTitle__Link {
+  color: #707c8b;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormFields{
+  margin-top:200px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: white;
+}
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #616e7f;
+}
+
+.FormField__Button {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  outline: none;
+  padding: 15px 60px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.FormFieldCheck {
+  width: 200px;
+}
+.FormField__Link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225e62;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: #646f7d;
+  font-size: 9px;
+  display: grid;
+  grid-template-columns: 30px 95px 120px;
+  align-items: baseline;
+}
+
+.FormField__Checkbox {
+  display: flex;
+  top: 1.5px;
+  color: #646f7d;
+}
+
+.FormField__TermsLink {
+  color: black;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+.terms_and_conditions{
+  color:black;
+  font-size: 9px;
+  text-align: center;
+}

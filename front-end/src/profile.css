@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Electrolize&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  
+}
+
+.container-profile {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #f9e6c8;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 5px 50px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.logo {
+  margin-right: 60px;
+}
+
+.name-user {
+  color: white;
+  font-size: 15px;
+  padding: 0 40px;
+  font-weight: 500;
+  color: rgb(133, 58, 58);
+}
+
+.name-user:hover {
+  cursor: pointer;
+  background-color: rgb(133, 58, 58);
+  color: white;
+}
+.logout {
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(133, 58, 58);
+  padding: 0 20px;
+  font-weight: 500;
+  border-left: 1px solid black;
+}
+.logout:hover {
+  cursor: pointer;
+  background-color: rgb(133, 58, 58);
+  color: white;
+}
+.explore {
+  display: flex;
+  margin: 0 50px;
+}
+.explore-1 {
+  position: relative;
+  box-sizing: border-box;
+  height: 300px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("https://images.unsplash.com/photo-1542274957-16888590a231?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  justify-content: center;
+}
+.explore-benefits {
+ border-radius: 8px;
+  background-color: white;
+  padding: 30px;
+  position: relative;
+  box-sizing: border-box;
+  height: 610px;
+  width: 50%;
+}
+.benefits{
+text-align: center;
+
+}
+
+.article{
+  font-size: 14px;
+}
+.research {
+  width: 180px;
+  height: 70px;
+  border: none;
+  background-color: rgb(133, 58, 58);
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  left: 100px;
+}
+.explore-2 {
+  box-sizing: border-box;
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.adjust-button {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  width: 750px;
+}
+.recipes {
+  transform: scaleX(-1);
+  border-radius: 12px;
+  width: 300px;
+  height: 100px;
+  border: none;
+  opacity: 0.9;
+  background-color: burlywood;
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.avaliable {
+  position: relative;
+  right: 15%;
+  top: 50px;
+  display: grid;
+  grid-template-rows: 50px 50px 30px;
+  justify-content: flex-end;
+  color: rgb(133, 58, 58);
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.total-color {
+  color: black;
+}
+.arrow {
+  margin-left: 20px;
+}
+
+.my-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 100px;
+  width: 250px;
+  background-color: rgb(133, 58, 58);
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.product-info {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.product-image {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.shopping-cart {
+  margin: 0 auto;
+}
+.shopping-item {
+  display: inline-block;
+  vertical-align: top;
+}
+.fruit-image {
+  padding: 10px;
+}
+
+
+
+.footer {
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(133, 58, 58);
+  color: white;
+}
+
+.hidden-footer {
+  visibility: hidden;
+  background-color: burlywood;
+}
+.footer-text {
+  margin-top: 0px;
+  padding: 0;
+}
+
+.container {
+  margin-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: visible !important;
+}
+
+.purchase-card {
+  margin-top: 60px;
+  background-color: white;
+  width: 750px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;
+  padding: 1em;
+ 
+}
+
+.purchase-card > .show-grid {
+  padding-bottom: 1.5em;
+}
+.checkout-fruit-details{
+  font-size: 8px;
+}
+.item-details-button {
+  outline: none;
+  background-color: none;
+}
+
+.price-strike {
+  text-decoration-line: line-through;
+  color: grey;
+}
+.each-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.media-show {
+  padding-top: 30px;
+  display: flex;
+  justify-items: center;
+  width: 700px;
+  padding-bottom: 10px;
+}
+.cartItem-price {
+  font-size: 8px;
+}
+
+.btn-primary {
+  background: none;
+  color: blue;
+  border: none;
+}
+.promo-code-button {
+  margin-bottom: 5px;
+}
+.discount-forum {
+  display: flex;
+}
+.btn-round {
+  align-self: baseline;
+  margin-left: 15px;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+}
+
+.promo-generate {
+  margin-right: 15px;
+}
+.checkout-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.side-checkout {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  height: 100vh;
+}

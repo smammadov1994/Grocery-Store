@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+canvas {
+  position: absolute;
+}
+
